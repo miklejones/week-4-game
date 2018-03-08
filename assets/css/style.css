@@ -1,3 +1,7 @@
+body {
+    background-image: url('../images/background.jpg');
+}
+
 #game-title {
     margin: 10px 5px;
     padding: 5px;
@@ -18,4 +22,13 @@
     color: #7a6;
     background-color: #fed;
     font-weight: 700;
+}
+
+#target-score {
+    margin: 0px 5px 10px 5px;
+    padding: 5px;
+    height: 100px;
+    width: 150px;
+    background-color: #6d8;
+    float: left;
 }
