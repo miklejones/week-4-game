@@ -1,0 +1,21 @@
+#game-title {
+    margin: 10px 5px;
+    padding: 5px;
+    height: 75px;
+    width: 225px;
+    font-size: 26px;
+    font-weight: 800;
+    color: white;
+    background-color: #d72;
+    line-height: 75px;
+}
+
+#instructions {
+    margin: 10px 5px;
+    padding: 5px;
+    height: 350px;
+    width: 400px;
+    color: #7a6;
+    background-color: #fed;
+    font-weight: 700;
+}
