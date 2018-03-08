@@ -29,6 +29,45 @@ body {
     padding: 5px;
     height: 100px;
     width: 150px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #505;
     background-color: #6d8;
     float: left;
+}
+
+#wins-losses {
+    margin: 0px 5px 10px 5px;
+    padding: 15px 5px;
+    height: 80px;
+    width: 150px;
+    color: blue;
+    background-color: #5ff;
+    float: left;
+}
+
+#crystals {
+    margin: 10px 5px;
+    clear: both;
+}
+
+.crystal-pic {
+    height: 75px;
+    background-color: white;
+    border: 3px solid darkgreen;
+    border-radius: 5px;
+}
+
+.current-score {
+    margin: 10px 5px;
+    padding: 5px;
+    height: 75px;
+    width: 225px;
+    color: white;
+    background-color: #3a9;
+}
+
+#total-score {
+    font-size: 28px;
+    font-weight: 600;
 }
