@@ -12,6 +12,8 @@ body {
     color: white;
     background-color: #d72;
     line-height: 75px;
+    border: 3px solid purple;
+    border-radius: 5px;
 }
 
 #instructions {
@@ -22,6 +24,8 @@ body {
     color: #7a6;
     background-color: #fed;
     font-weight: 700;
+    border: 3px solid brown;
+    border-radius: 5px;
 }
 
 #target-score {
@@ -34,6 +38,9 @@ body {
     color: #505;
     background-color: #6d8;
     float: left;
+    border: 3px solid darkgoldenrod;
+    border-radius: 5px;
+
 }
 
 #wins-losses {
@@ -44,6 +51,9 @@ body {
     color: blue;
     background-color: #5ff;
     float: left;
+    border: 3px solid orangered;
+    border-radius: 5px;
+
 }
 
 #crystals {
@@ -58,6 +68,11 @@ body {
     border-radius: 5px;
 }
 
+.crystal-pic:hover {
+    cursor: pointer;
+    filter: invert(100%);
+}
+
 .current-score {
     margin: 10px 5px;
     padding: 5px;
@@ -65,6 +80,9 @@ body {
     width: 225px;
     color: white;
     background-color: #3a9;
+    border: 3px solid turquoise;
+    border-radius: 5px;
+
 }
 
 #total-score {
